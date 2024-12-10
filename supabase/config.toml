@@ -52,6 +52,12 @@ enable_anonymous_sign_ins = false
 # Allow/disallow testing manual linking of accounts
 enable_manual_linking = false
 
+# Disable password authentication
+enable_password_auth = false
+
+# Enable email OTP (magic link) authentication
+enable_email_otp_auth = true
+
 [auth.email]
 # Allow/disallow new user signups via email to your project.
 enable_signup = true
